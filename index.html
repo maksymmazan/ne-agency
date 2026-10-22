@@ -18,7 +18,7 @@
   --text:#1d2925; --text2:#4a5853; --on-brand:#fbf7f2; --on-brand-muted:#dce3da;
   --border:#d6c4b2; --border-on-brand:#637971; --error:#b3412a;
   --font:'Montserrat', 'Segoe UI', system-ui, -apple-system, Roboto, Arial, sans-serif;
-  --g:120px; --sec:96px; --maxw:1200px; --hdr:88px;
+  --g:120px; --sec:96px; --maxw:1360px; --hdr:88px;
   color-scheme:light;
 }
 @media (max-width:1180px){:root{--g:48px;--sec:80px}}
@@ -133,7 +133,7 @@ a{color:inherit}
 .photo>img{width:100%;height:100%;object-fit:cover}
 .hero .photo{height:520px}
 .chip-fact{position:absolute;left:24px;bottom:24px;background:var(--surface);border-radius:16px;padding:16px 24px 16px 16px;display:flex;align-items:center;gap:12px;max-width:calc(100% - 48px);box-shadow:0 8px 24px rgba(34,51,46,.12)}
-.chip-fact .ib{background:var(--accent-soft)}
+.chip-fact .ib{background:var(--accent-soft);display:grid}
 .chip-fact b{display:block;font:600 20px/28px var(--font)}
 .chip-fact span{display:block;font:500 14px/20px var(--font);color:var(--text2)}
 .ib{width:48px;height:48px;border-radius:999px;display:grid;place-items:center;flex:none;background:var(--surface);color:var(--brand)}
@@ -268,7 +268,7 @@ a{color:inherit}
 .upload{position:relative;display:flex;align-items:center;gap:16px;padding:20px;border:1.5px dashed var(--brand);border-radius:16px;background:#fffdfa;cursor:pointer;transition:background-color .15s}
 .upload:hover,.upload.drag{background:var(--accent-soft)}
 .upload input{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%}
-.upload .ib{background:var(--accent-soft)}
+.upload .ib{background:var(--accent-soft);display:grid}
 .upload b{display:block;font:600 16px/24px var(--font)}
 .upload span{display:block;font:500 14px/20px var(--font);color:var(--text2);overflow-wrap:anywhere}
 .upload .rm{position:relative;z-index:2;margin-left:auto;background:none;border:0;cursor:pointer;color:var(--text2);padding:8px;border-radius:999px}
